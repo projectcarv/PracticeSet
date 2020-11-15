@@ -6,6 +6,7 @@ public class MainMethod {
 		// TODO Auto-generated method stub
 		
 		System.out.println("Welcome to Project Carv");
+		System.out.println("Adding one more line to GIT");
 
 	}
 
