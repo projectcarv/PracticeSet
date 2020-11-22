@@ -23,6 +23,7 @@ public class StringSplitTest {
 		while (st.hasMoreTokens()) {
 			System.out.println(st.nextToken());
 		}
+System.out.println("git test");
 	}
 
 }
