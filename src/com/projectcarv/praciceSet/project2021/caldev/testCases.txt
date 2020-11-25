@@ -1,0 +1,33 @@
+Test cases -
+
+Case-1 
+Please enter a number - 
+3
+Please enter another number - 
+4
+The addition of 3 & 4 is = 7
+The substraction of 3 & 4 is = -1
+
+Case-2 
+Please enter a number - 
+6
+Please enter another number - 
+5
+The addition of 6 & 5 is = 11
+The substraction of 6 & 5 is = 1
+
+Case-3 
+Please enter a number - 
+-4
+Please enter another number - 
+5
+Please enter positive integer inplace of -4
+Please enter positive integer inplace of -4
+
+Case-4
+Please enter a number - 
+5
+Please enter another number - 
+-6
+Please enter positive integer inplace of -6
+Please enter positive integer inplace of -6
