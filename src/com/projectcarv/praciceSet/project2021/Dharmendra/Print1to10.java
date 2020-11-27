@@ -7,8 +7,9 @@ public class Print1to10 {
 		for(int i=0;i<10;i++){
 			System.out.println(i);
 		}
+		System.out.println("Counting from 0 to 9 as - ");
 	}
 
-System.out.println("Counting from 0 to 9 as - ");
+
 
 }

@@ -1,4 +1,4 @@
-package com.projectcarv.StringTest;
+package com.projectcarv.praciceSet.project2021.Dharmendra;
 
 import java.util.StringTokenizer;
 
@@ -23,7 +23,7 @@ public class StringSplitTest {
 		while (st.hasMoreTokens()) {
 			System.out.println(st.nextToken());
 		}
-System.out.println("git test");
+
 	}
 
 }
