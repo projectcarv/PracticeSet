@@ -1,5 +1,6 @@
 package com.projectcarv.praciceSet.project2021.caldev;
 
+
 import java.util.Scanner;
 
 public class MainCaldev {
@@ -14,12 +15,14 @@ public class MainCaldev {
 		int j = sc.nextInt();
 		
 		// Call to add method implemented by Abhishikta/twinkle
-		String addResult = add(i,j);
+		AdditionModule addModule = new AdditionModule(); 
+		String addResult = addModule.add(i,j);
 		System.out.println(addResult );
 		
 		
 		// Call to substract method implemented by Manisha
-		String subResult = substract(i,j);
+		SubModule subModule = new SubModule();
+		String subResult = subModule.substract(i,j);
 		System.out.println(subResult );
 		
 	}
