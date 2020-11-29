@@ -7,16 +7,16 @@ public class Validation {
 	public static final String errormsgforI ="Please enter positive integer in place of : ";
 	public static final String errormsgforJ ="Please enter positive integer in place of : ";
 
-	public String validate(int i, int j) { // -4, -5
-		Map<boolean, String> map= new HashMap<>();
+	public static Map<Boolean, String> validate(int i, int j) { // -4, -5
+		Map<Boolean, String> valdateMap= new HashMap<>();
 		if(i>0 && j>0){
-			map.put("true","errormsgforBoth");
+			valdateMap.put(Boolean.TRUE,errormsgforBoth);
 		}else if(i<0){
-			map.put("false","errormsgforI" +i);
+			valdateMap.put(Boolean.FALSE,errormsgforI +i);
 		}else if(j<0){
-			map.put("false","errormsgforJ" +j);
+			valdateMap.put(Boolean.FALSE,errormsgforJ +j);
 		}
-		return (map);
+		return valdateMap;
 	}
 	public static void main(String args[]){
 		validate (1,2);
