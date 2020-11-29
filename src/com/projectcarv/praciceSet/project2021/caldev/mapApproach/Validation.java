@@ -18,4 +18,7 @@ public class Validation {
 		}
 		return (map);
 	}
+	public static void main(String args[]){
+		validate (1,2);
+	}
 }
