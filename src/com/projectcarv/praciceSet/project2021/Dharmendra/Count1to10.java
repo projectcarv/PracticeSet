@@ -5,5 +5,5 @@ public class Count1to10 {
 		System.out.println("Counting 1 to 10");
 	}
 
-	System.out.println("Counting again 1 to 10");
+	
 }

@@ -9,6 +9,5 @@ public class Print1to10 {
 		}
 	}
 
-System.out.println("Counting from 0 to 9 as - ");
 
 }
