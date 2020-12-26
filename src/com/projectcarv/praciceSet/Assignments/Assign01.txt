@@ -1,0 +1,6 @@
+1- Write an employee class with 5 or more than 5 attributes.
+      1.a- Among them at least 2attributes should be complex like address attribute and Name attribute.
+2- Write a main method where you will create more than 5 objects.
+3- Write another utility class which will display the Employee object as per the attributes.
+        Ex- I want to display only employee id and employee address.
+            Or may be display only employee first name and zip code from address.
