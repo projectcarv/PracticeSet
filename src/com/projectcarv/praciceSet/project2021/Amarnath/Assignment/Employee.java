@@ -2,15 +2,15 @@ package Assignment;
 import Assignment.Address;
 import Assignment.DisplayEmployee;
 public class Employee {
-	String employeeName;
+	Name employeeName;
 	String employeeCode;
 	String joinDate;
 	int salary;
 	Address employeeAddress;
-public String getEmployeeName() {
+	public Name getEmployeeName() {
 		return employeeName;
 	}
-	public void setEmployeeName(String employeeName) {
+	public void setEmployeeName(Name employeeName) {
 		this.employeeName = employeeName;
 	}
 	public String getEmployeeCode() {
@@ -36,5 +36,10 @@ public String getEmployeeName() {
 	}
 	public void setEmployeeAddress(Address employeeAddress) {
 		this.employeeAddress = employeeAddress;
+	}
+	@Override
+	public String toString() {
+		return "Employee [employeeName=" + employeeName + ", employeeCode=" + employeeCode + ", joinDate=" + joinDate
+				+ ", salary=" + salary + ", employeeAddress=" + employeeAddress + "]";
 	}
 }
