@@ -1,9 +1,9 @@
-package Assignment;
+package com.projectcarv.praciceSet.project2021.Amarnath.Assignment;
 
 import java.util.ArrayList;
 import java.util.List;
-import Assignment.Employee;
-import Assignment.*;
+import com.projectcarv.praciceSet.project2021.Amarnath.Assignment.Employee;
+import com.projectcarv.praciceSet.project2021.Amarnath.Assignment.*;
 
 public class DisplayEmployee {
 	void displayEmployeeName(Employee employee1, Employee employee2, Employee employee3, Employee employee4,

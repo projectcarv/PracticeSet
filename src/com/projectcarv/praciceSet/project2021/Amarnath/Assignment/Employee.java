@@ -1,6 +1,6 @@
-package Assignment;
-import Assignment.Address;
-import Assignment.DisplayEmployee;
+package com.projectcarv.praciceSet.project2021.Amarnath.Assignment;
+import com.projectcarv.praciceSet.project2021.Amarnath.Assignment.Address;
+import com.projectcarv.praciceSet.project2021.Amarnath.Assignment.DisplayEmployee;
 public class Employee {
 	Name employeeName;
 	String employeeCode;

@@ -1,9 +1,7 @@
-package Assignment;
+package com.projectcarv.praciceSet.project2021.Amarnath.Assignment;
 
 import java.util.List;
 import java.util.Scanner;
-
-import Assignment.*;
 
 public class EmployeeMain {
 

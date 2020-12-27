@@ -1,4 +1,7 @@
-package Calculator;
+package com.projectcarv.praciceSet.project2021.Amarnath.Calculator;
+
+import Calculator.Calculation;
+import Calculator.Calculator;
 
 public abstract class AmarCal implements Calculator {
 	public static void main(String[] args){

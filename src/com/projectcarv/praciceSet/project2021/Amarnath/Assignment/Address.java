@@ -1,4 +1,4 @@
-package Assignment;
+package com.projectcarv.praciceSet.project2021.Amarnath.Assignment;
 
 public class Address {
 	String area;
