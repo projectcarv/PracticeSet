@@ -1,14 +1,13 @@
 package com.projectcarv.praciceSet.project2021.Amarnath.Assignment;
 
-import java.util.ArrayList;
-import java.util.List;
 import com.projectcarv.praciceSet.project2021.Amarnath.Assignment.Employee;
-import com.projectcarv.praciceSet.project2021.Amarnath.Assignment.*;
 
 public class DisplayEmployee {
 	void displayEmployeeName(Employee employee1, Employee employee2, Employee employee3, Employee employee4,
 			Employee employee5) {
 		System.out.println("***Employess Name are***");
+		System.out.println(" E Name         ");
+		System.out.println("--------------------");
 		System.out.println(employee1.getEmployeeName());
 		System.out.println(employee2.getEmployeeName());
 		System.out.println(employee3.getEmployeeName());
@@ -20,6 +19,8 @@ public class DisplayEmployee {
 	void displayEmployeeCode(Employee employee1, Employee employee2, Employee employee3, Employee employee4,
 			Employee employee5) {
 		System.out.println("***Employess EmpCodes are***");
+		System.out.println(" EID");
+		System.out.println("------");
 		System.out.println(employee1.getEmployeeCode());
 		System.out.println(employee2.getEmployeeCode());
 		System.out.println(employee3.getEmployeeCode());
@@ -31,6 +32,8 @@ public class DisplayEmployee {
 	public void displayEmployeeDetails(Employee employee1, Employee employee2, Employee employee3, Employee employee4,
 			Employee employee5) {
 		System.out.println("***Employess details are***");
+		System.out.println("EID                 "+"       E NAME                  "+"    JOIN DATE                 "+"    SALARY                 "+"     ADDRESS");
+		System.out.println("-----------------------------------------------------------------------------------------------------------------------------------------");
 		System.out.println(employee1);
 		System.out.println(employee2);
 		System.out.println(employee3);

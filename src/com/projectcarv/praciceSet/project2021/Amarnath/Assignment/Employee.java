@@ -1,6 +1,5 @@
 package com.projectcarv.praciceSet.project2021.Amarnath.Assignment;
 import com.projectcarv.praciceSet.project2021.Amarnath.Assignment.Address;
-import com.projectcarv.praciceSet.project2021.Amarnath.Assignment.DisplayEmployee;
 public class Employee {
 	Name employeeName;
 	String employeeCode;
@@ -39,7 +38,7 @@ public class Employee {
 	}
 	@Override
 	public String toString() {
-		return "Employee [employeeName=" + employeeName + ", employeeCode=" + employeeCode + ", joinDate=" + joinDate
-				+ ", salary=" + salary + ", employeeAddress=" + employeeAddress + "]";
+		return employeeCode+ "                  " +employeeName+ "                  " +joinDate + "                  " + salary + "                  " + employeeAddress ;
 	}
+	
 }

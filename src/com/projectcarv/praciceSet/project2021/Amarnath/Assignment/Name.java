@@ -24,6 +24,6 @@ public class Name {
 	}
 	@Override
 	public String toString() {
-		return "Name [FirstName=" + FirstName + ", MiddleName=" + MiddleName + ", LastName=" + LastName + "]";
+		return  FirstName+ " " + MiddleName + " " + LastName ;
 	}
 }

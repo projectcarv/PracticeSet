@@ -6,7 +6,6 @@ import java.util.List;
 public class EmployeeData {
 	public List<Employee> generateEmployee(){
 		List<Employee> employeeList = new ArrayList<Employee>();
-		
 		Employee employee1 = new Employee();
 		Employee employee2 = new Employee();
 		Employee employee3 = new Employee();
