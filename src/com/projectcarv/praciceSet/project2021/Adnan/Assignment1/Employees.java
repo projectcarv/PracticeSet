@@ -1,12 +1,12 @@
 package com.projectcarv.praciceSet.project2021.Adnan.Assignment1;
 
 public class Employees {
-    String empId;
+    private String empId;
     EmployeeName empName;
-    String empContactNo;
-    String empDesignation;
-    String empSalary;
-    String empJoinDate;
+    private String empContactNo;
+    private String empDesignation;
+    private String empSalary;
+    private String empJoinDate;
     EmployeeAddress empAddress;
 
     public String getEmpId() {

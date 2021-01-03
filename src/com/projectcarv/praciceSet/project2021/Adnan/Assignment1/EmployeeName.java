@@ -1,9 +1,9 @@
 package com.projectcarv.praciceSet.project2021.Adnan.Assignment1;
 
 public class EmployeeName {
-    String firstName;
-    String middleName;
-    String lastName;
+    private String firstName;
+    private String middleName;
+    private String lastName;
 
     public String getFirstName() {
         return firstName;
