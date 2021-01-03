@@ -1,0 +1,9 @@
+Continum from Assign01
+1- Create a user defined exception class.
+2- When user wants to generate more than 5 employee object give a message like 
+	"ERST_COUNT_EMP=No of employees should be less than 5"
+	The first part is exception code "ERST_EMP" and second string is exception message.
+3- When user wants to see some attribute which is not in Employee class then throw an exception saying 
+	"ERST_ATTR_EMP=This {attribute} is not present in Employee"
+	Ex- If employee has {Name,address,salary,dept,designation} and user wants to see manager name of employee
+		then throw the above exception.
