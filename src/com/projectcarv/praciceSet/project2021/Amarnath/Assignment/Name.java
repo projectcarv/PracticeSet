@@ -4,6 +4,9 @@ public class Name {
 	String FirstName;
 	String MiddleName;
 	String LastName;
+	public Name() {
+		// TODO Auto-generated constructor stub
+	}
 	public String getFirstName() {
 		return FirstName;
 	}

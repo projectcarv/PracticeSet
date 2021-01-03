@@ -5,6 +5,10 @@ public class Address {
 	String district;
 	int zipcode;
 
+	public Address() {
+		// TODO Auto-generated constructor stub
+	}
+
 	public String getArea() {
 		return area;
 	}

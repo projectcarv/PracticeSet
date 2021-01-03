@@ -1,36 +1,39 @@
 package com.projectcarv.praciceSet.project2021.Amarnath.Assignment2;
 
-import java.io.FileWriter;
-import java.io.IOException;
 import java.util.ArrayList;
+import java.util.List;
 import java.util.Scanner;
 
+import com.projectcarv.praciceSet.project2021.Amarnath.Assignment.Address;
+import com.projectcarv.praciceSet.project2021.Amarnath.Assignment.Employee;
+import com.projectcarv.praciceSet.project2021.Amarnath.Assignment.Name;
+
 public class AddEmployee {
-	public void addEmployee(int num) throws ERST_COUNT_EMP {
-		if (num >= 5) {
-			throw new ERST_COUNT_EMP("No of employees should be less than 5");
+	public AddEmployee(int input) throws ERST_COUNT_EMP, ERST_ATTR_EMP {
+		if (input >= 5) {
+			throw new ERST_COUNT_EMP("No of employees should be less than 5  You are trying to added :" + input);
 		} else {
-			ArrayList<Employee> employee = new ArrayList<Employee>();
 			Scanner sc = new Scanner(System.in);
-			try {
-				FileWriter myWriter = new FileWriter("D:\\Employee.txt");
-			
-			for (int i = 0; i < num; i++) {
-				
+			List<Employee> employeeList = new ArrayList<Employee>();
+			List<Name> nameList = new ArrayList<Name>();
+			List<Address> addressList = new ArrayList<Address>();
+			for (int i = 0; i < input; i++) {
+
 				Name ename = new Name();
 				System.out.print("What is " + (i + 1) + " Employess First name?");
 				String firstName = sc.next();
 
 				System.out.print("What is " + (i + 1) + " Employess Middle name?");
 				String middleName = sc.next();
-
+				
 				System.out.print("What is " + (i + 1) + " Employess Last name?");
 				String lastName = sc.next();
 				ename.setFirstName(firstName);
 				ename.setMiddleName(middleName);
 				ename.setLastName(lastName);
-				
-				Address eaddress= new Address();
+				nameList.add(ename);
+
+				Address eaddress = new Address();
 				System.out.print("What is " + (i + 1) + " Employess Area name?");
 				String area = sc.next();
 
@@ -42,8 +45,10 @@ public class AddEmployee {
 				eaddress.setArea(area);
 				eaddress.setDistrict(district);
 				eaddress.setZipcode(zipcode);
-				
-				Employee emp= new Employee();
+
+				addressList.add(eaddress);
+
+				Employee emp = new Employee();
 				System.out.print("What is " + (i + 1) + " Employee Code?");
 				String empCode = sc.next();
 
@@ -55,27 +60,41 @@ public class AddEmployee {
 				emp.setEmployeeCode(empCode);
 				emp.setJoinDate(empJdate);
 				emp.setSalary(empSalary);
-				
-				myWriter.write(firstName);
-				myWriter.write(middleName);
-				myWriter.write(lastName);
-				myWriter.write(empCode);
-				myWriter.write(empJdate);
-				myWriter.write(empSalary);
-				myWriter.write(area);
-				myWriter.write(district);
-				myWriter.write(zipcode);
-				System.out.println("File has wirtten....");
-				System.out.println("\nEmployee "+(i + 1)+ " added Successfuly!!!");
-				myWriter.close();
-				
-				
+				emp.setEmployeeName(ename);
+				emp.setEmployeeAddress(eaddress);
+
+				employeeList.add(emp);
 			}
-			} catch (IOException e) {
-				// TODO Auto-generated catch block
-				e.printStackTrace();
+			// System.out.println(employeeList);
+			System.out.println(
+					"Choose What you want to view : \n1: EmployeeName \n2: EmployeeCode \n3: EmployeeAllDetails \n4: Manager name of Employee");
+			int choose = sc.nextInt();
+			if (choose == 1) {
+				System.out.println("***Employess Name are***");
+				System.out.println(" E Name         ");
+				System.out.println("--------------------");
+				for (Employee emp : employeeList) {
+					System.out.println(emp.getEmployeeName());
+				}
+			} else if (choose == 2) {
+				System.out.println("***Employess EmpCodes are***");
+				System.out.println(" EID");
+				System.out.println("------");
+				for (Employee emp : employeeList) {
+					System.out.println(emp.getEmployeeCode());
+				}
+			} else if(choose==3){
+				System.out.println("***Employess details are***");
+				System.out.println("EID                 "+"       E NAME                  "+"    JOIN DATE                 "+"    SALARY                 "+"     ADDRESS");
+				System.out.println("-----------------------------------------------------------------------------------------------------------------------------------------");
+				
+				for (Employee emp : employeeList) {
+					System.out.println(emp);
+				}
+			}else if(choose==4){
+				throw new ERST_ATTR_EMP("This {attribute} is not present in Employee");
 			}
-		
 		}
+
 	}
 }
