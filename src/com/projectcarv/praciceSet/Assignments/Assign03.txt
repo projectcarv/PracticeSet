@@ -1,0 +1,10 @@
+1- Create a user list and add 5 and more employee objects where minimum two employee object has the same salary.
+(Dont take user input while creating the Employee object)
+2- Display the employee list and size.
+3- Remove one object as per the index value and again display the list and size.
+(Here take the user input which index user wants to remove - if the index not present throw an exception)
+(If initially it contains 5 objects after removal it should conatin 4 objects)
+4- From the list try to find out the employees having the same salary and display them.
+
+Note :- Dont use "toString" method for displaying the object value.
+
