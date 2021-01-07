@@ -1,11 +1,11 @@
 package com.projectcarv.praciceSet.project2021.Amarnath.Assignment;
 import com.projectcarv.praciceSet.project2021.Amarnath.Assignment.Address;
 public class Employee {
-	Name employeeName;
-	String employeeCode;
-	String joinDate;
-	int salary;
-	Address employeeAddress;
+	public static Name employeeName;
+	public static String employeeCode;
+	public static String joinDate;
+	public static int salary;
+	public static Address employeeAddress;
 	public Name getEmployeeName() {
 		return employeeName;
 	}

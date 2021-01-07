@@ -1,9 +1,9 @@
 package com.projectcarv.praciceSet.project2021.Amarnath.Assignment;
 
 public class Address {
-	String area;
-	String district;
-	int zipcode;
+	private String area;
+	private String district;
+	private int zipcode;
 
 	public Address() {
 		// TODO Auto-generated constructor stub

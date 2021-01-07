@@ -1,9 +1,9 @@
 package com.projectcarv.praciceSet.project2021.Amarnath.Assignment;
 
 public class Name {
-	String FirstName;
-	String MiddleName;
-	String LastName;
+	private String FirstName;
+	private String MiddleName;
+	private String LastName;
 	public Name() {
 		// TODO Auto-generated constructor stub
 	}
