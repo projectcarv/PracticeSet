@@ -19,37 +19,41 @@ public class Main {
             Scanner input = new Scanner(System.in);
             int show = input.nextInt();
             switch (show) {
-                case 1 -> {
+                case 1: {
                     System.out.println("\t1: Only Employee Id: \n" +
                             "\t2: Employee Id with Address: ");
                     Scanner sc = new Scanner(System.in);
                     int viewId = input.nextInt();
                     switch (viewId) {
-                        case 1 -> {
+                        case 1: {
                             showEmployees.showEmployeeId(employees.get(0), employees.get(1), employees.get(2), employees.get(3), employees.get(4), employees.get(5), employees.get(6));
                         }
-                        case 2 -> {
+                        break;
+                        case 2: {
                             showEmployees.showEmployeeAddress(employees.get(0), employees.get(1), employees.get(2), employees.get(3), employees.get(4), employees.get(5), employees.get(6));
                         }
                     }
                 }
+                break;
 
-                case 2 -> {
+                case 2: {
                     System.out.println("\t1: Only Employee First Name: \n" +
                             "\t2: Employee Name with Pin Code: ");
                     Scanner sc = new Scanner(System.in);
                     int viewName = sc.nextInt();
                     switch (viewName) {
-                        case 1 -> {
+                        case 1: {
                             showEmployees.showEmployeeFirstName(employees.get(0), employees.get(1), employees.get(2), employees.get(3), employees.get(4), employees.get(5), employees.get(6));
                         }
-                        case 2 -> {
+                        break;
+                        case 2: {
                             showEmployees.showEmployeePinCode(employees.get(0), employees.get(1), employees.get(2), employees.get(3), employees.get(4), employees.get(5), employees.get(6));
                         }
                     }
                 }
+                break;
 
-                case 3 -> {
+                case 3: {
                     showEmployees.showEmployeeDetails(employees.get(0), employees.get(1), employees.get(2), employees.get(3), employees.get(4), employees.get(5), employees.get(6));
                 }
 

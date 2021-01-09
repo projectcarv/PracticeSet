@@ -1,9 +1,9 @@
 package com.projectcarv.praciceSet.project2021.Adnan.Assignment1;
 
 public class EmployeeAddress {
-    String empArea;
-    String empDistrict;
-    String empPinCode;
+    private String empArea;
+    private String empDistrict;
+    private String empPinCode;
 
     public String getEmpArea() {
         return empArea;
