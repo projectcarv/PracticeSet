@@ -1,0 +1,5 @@
+1- Create a user list with minimum 10 objects.
+2- Iterarate the list and display the full name of the employees having employee code is "E002".
+3- Display the employees full name and full address where minimum salary is more than 50,000.
+4- Display the employee joining date and employee code if they belongs to "Cuttack" distirct.
+
