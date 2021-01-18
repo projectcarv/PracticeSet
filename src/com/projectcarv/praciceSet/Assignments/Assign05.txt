@@ -1,0 +1,8 @@
+1- Create a employee set and add more than 5 emplooyees. Try to iterate over the set and display only employee name and employee code.
+2- Try to delete a employee from the employee set where the employee code = E003. and display othe employees from the set after deletion.
+3- Try to add two similar employee to the set and display it over for each loop.
+4- Create a map which contains the employee as key and employee id as value.
+5- Create another map where the employee code as key and employee as value.
+6- Iterate over the map and display the employee code and employee address only. 
+
+
