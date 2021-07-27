@@ -11,6 +11,6 @@ public abstract class MyAbstract {
 	public abstract void sayHello();
 	
 	public void sayBye(){
-		System.out.println("Say bye bye");
+		System.out.println("Say bye bye and gd nyt");
 	}
 }
