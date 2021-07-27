@@ -16,7 +16,7 @@ public class AbstractTest {
 		MyAbstract mabi = new MyAbstract() {
 			@Override
 			public void sayHello() {
-				System.out.println("Inner class impl of abstract");
+				System.out.println("Debabrata samal");
 			}
 		};
 		mabi.sayHello();
