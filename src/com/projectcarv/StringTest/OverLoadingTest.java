@@ -3,7 +3,7 @@ package com.projectcarv.StringTest;
 public class OverLoadingTest {
 
 	public void getString(String a) {
-		System.out.println("getString");
+		System.out.println("getString abcd");
 	}
 	
 	public void getString(StringBuffer a) {
