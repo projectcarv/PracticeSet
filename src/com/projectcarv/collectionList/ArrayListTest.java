@@ -22,7 +22,7 @@ public class ArrayListTest {
 		strings.add("d");
 		
 		/*System.out.println(strings);
-		System.out.println("strings size "+strings.size());
+		System.out.println("strings of size "+strings.size());
 		*/
 		/*strings.add(1, "e");
 		System.out.println(strings);
