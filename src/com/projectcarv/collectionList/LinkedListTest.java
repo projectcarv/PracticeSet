@@ -14,7 +14,7 @@ public class LinkedListTest {
 	       linkedlist.add("Item6");
 	       linkedlist.add("Item2");
 
-	       System.out.println("Linked List Content Original: " +linkedlist);
+	       System.out.println("Linked List of Content Original: " +linkedlist);
 
 	       /*linkedlist.addFirst("First Item");
 	       linkedlist.addLast("Last Item");
