@@ -20,7 +20,7 @@ public class RemovVowels {
     }
     public static void main(String[] args)
     {
-        String str = "Manan - tech";
+        String str = "Its DEV here";
          
         System.out.println(remVowel(str));
     }
