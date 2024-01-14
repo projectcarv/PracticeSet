@@ -44,6 +44,10 @@ public class StringBasicTest {
 		immutString.concat("how are you");
 		System.out.println(immutString);
 
+		String test = "today is 13 Jan 2024";
+		String test2 = "I am learning Github"
+		System.out.println(test+test2);
+
 	}
 
 }
