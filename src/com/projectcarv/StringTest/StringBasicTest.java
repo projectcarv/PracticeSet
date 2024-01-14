@@ -48,6 +48,8 @@ public class StringBasicTest {
 		String test2 = "I am learning Github"
 		System.out.println(test+test2);
 
+		System.out.println("Second time");
+
 	}
 
 }
